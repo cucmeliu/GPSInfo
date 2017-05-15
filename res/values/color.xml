@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_main_page">#FFFFFF</color>
+    <color name="color_main_page_top">#CCCCCC</color>
+    
+    <color name="color_setting_page">#FFFFFF</color>
+    <color name="color_setting_page_top">#CCCCCC</color>
+    
+    <color name="color_line">#999999</color>
+
+    <color name="color_title_font">#555555</color>
+    <color name="color_content_font">#000000</color>
+
+    <color name="unClick">#999999</color>
+    <color name="mClick">#333333</color>
+
+    <color name="state_no">#FF3333</color>
+    <color name="state_find">#3399FF</color>
+    <color name="state_pause">#FF6600</color>
+    <color name="state_yes">#339933</color>
+
+</resources>

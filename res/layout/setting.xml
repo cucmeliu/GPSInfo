@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_setting_page"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:alpha=".8"
+        android:background="@color/color_setting_page_top"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/back"
+            android:layout_width="63dp"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="3dp"
+                android:contentDescription="back"
+                android:duplicateParentState="true"
+                android:src="@drawable/image_back_selector" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:textColor="#333"
+                android:text="返回" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/setting_title"
+            android:textColor="@color/color_content_font"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="63dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#999" />
+
+    <!-- id标识 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/id_msg"
+            android:textColor="@color/color_title_font"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/addId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="3"
+            android:background="@drawable/edit_selector"
+            android:hint="@string/id_msg_hint"
+            android:padding="5dp"
+            android:textColor="@color/color_content_font"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <!-- 网络地址 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/inetAddress"
+            android:textColor="@color/color_title_font"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/inetAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="3"
+            android:background="@drawable/edit_selector"
+            android:hint="@string/inetAddress_hint"
+            android:padding="5dp"
+            android:textColor="@color/color_content_font"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <!-- 时间间隔 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/time_per"
+            android:textColor="@color/color_title_font"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/time_per"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="3"
+            android:background="@drawable/edit_selector"
+            android:hint="@string/time_per_hint"
+            android:inputType="number"
+            android:padding="5dp"
+            android:textColor="@color/color_content_font"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/configUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_save_selector"
+        android:padding="5dp"
+        android:text="@string/configUpdate"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+</LinearLayout>

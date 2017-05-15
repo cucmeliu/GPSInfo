@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GPSInfo</string>
+    <string name="action_settings">settings</string>
+    
+    <string name="gps_title">GPS信息监控</string>
+    <string name="setting_title">配置项</string>
+    
+    <string name="gps_state">GPS状态：</string>
+    <string name="gps_no">未打开</string>
+    <string name="gps_find">连接中</string>
+    <string name="gps_pause">已断开</string>
+    <string name="gps_yes">已连接</string>
+    
+    <string name="net_state">网络状态：</string>
+    <string name="net_no">未连接</string>
+    <string name="net_find">正在连接</string>
+    <string name="net_yes">已连接</string>
+    
+    
+    <string name="Speed">速度：</string>
+    <string name="Bearing">方向：</string>
+    <string name="Latitude">纬度：</string>
+    <string name="Longitude">经度：</string>
+    <string name="Time">时间：</string>
+    
+    <string name="id_msg">ID标识</string>
+    <string name="id_msg_hint">例如：ABD123456</string>
+    <string name="inetAddress">网络地址</string>
+    <string name="inetAddress_hint">例如：192.168.8.23:12112</string>
+    <string name="time_per">间隔时间</string>
+    <string name="time_per_hint">例如：10（单位：秒）</string>
+    
+    <string name="startG">开    始</string>
+    <string name="stopG">停    止</string>
+    <string name="toSetting">修改配置</string>
+    <string name="configUpdate">确认修改</string>
+
+    <string name="contentDescription_ctrl_btn">控制按钮</string>
+    <string name="contentDescription_setting_btn">设置按钮</string>
+
+</resources>
